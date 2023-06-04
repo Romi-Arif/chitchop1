@@ -1,0 +1,88 @@
+body {text-align: center; margin: 0; }
+
+/* navbar */
+nav { text-align: left;  letter-spacing: 1px; font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.3rem; padding: 9px 0px 9px 10px; box-shadow: 0px 1px 5px grey;
+         position: fixed; width: 100%; background-color: white; overflow: hidden;}
+
+nav a{ color: black; display: inline-block; margin: 0 15px 0 15px;
+        cursor: pointer; padding: 0; text-decoration: none;}
+.container { display: inline-block; height: 100%; margin: 0; padding: 0;}
+.container a { display: block;}
+.dropDown {  position: relative; background-color: white;
+                z-index: 1; display: none;}
+.mywork:hover, nav { overflow:;}
+.container:hover .dropDown { display: block;}
+
+hr { width: 9%; border-top: 1px solid black;}
+
+
+
+/* all h1 elements */
+h1 { font-family: 'Neuton', serif; letter-spacing: 8px; color: black;
+        line-height: 25px;}
+
+
+p { margin: auto; color: #B0A4A4;}
+
+div { padding: 35px 0 35px 0; margin: 0;}
+
+/* .p-ul is class of All <p> and <ul> tags*/
+.p-ul { font-family: 'Dongle', sans-serif; font-size: 2.3rem; line-height: 30px;
+        color: grey;}
+
+
+/* summary */
+.tmyname { width: 27rem;}
+.S h1 { font-family: 'Barlow Condensed', sans-serif; 
+        letter-spacing: 5px; line-height: 50px; font-size: 3rem; word-spacing: 10px;}
+.S p { width: 80%;  background-color: white;}
+.S { display: grid; grid-template-columns: 1fr 1fr; 
+      grid-template-rows: 1fr 1fr; gap: 1rem;
+      height: 50vh; width: 45%; margin: auto; padding-top: 13%;}
+.cursor { font-size: 12px;}
+.me {   grid-row: 1/3;}
+
+
+
+
+/* my work section */
+.MW { background-color: white; padding-top: 7rem;}
+.MW p{ width: 45%;}
+.MW div { background-color: white;}
+.MW button{ width: 10%; border-radius: 20px; border: 1px solid  #54BAB9;
+        background-color: white; padding-top: 5px;
+        font-family: 'Dongle', sans-serif; font-size: 2rem;}
+.pic img{ transition: opacity 2s;}
+                
+/* contact section */
+.C { display:flex; justify-content: center; 
+        align-items: center; padding-top: 10%; padding-bottom: 15%; }
+.item { flex-basis: 19rem;}
+.C h1 { margin-bottom: 30px;}
+.C button { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 5px;
+                color: black; font-size: 2rem; padding: 10px 10px 10px 15px;
+                border-radius: 15px; border: 0; color: white;
+                background-color: black; box-shadow: 0 0 5px black ;}
+.C a { text-decoration: none;}
+.C button:hover { background-color: white; color: black;}
+.C button:active { background-color: black; color: white;}
+
+/* (mywork)*/
+.pic img{ width: 70%; border-radius: 20px;  box-shadow: 0px 0px 8px black;}
+.animations iframe{ width: 70%; height: 36rem; border-radius: 20px; border: 0;
+        box-shadow: 0px 0px 8px black;}
+.previous, .next {font-size: 2.5rem; margin: 0 20px 0 20px; color: #00425A;}
+.next:hover { color: #7C96AB;} 
+.previous:hover { color: #7C96AB;}
+.Web { padding-top: 20%;}
+
+
+/*.hide { display: none;}*/
+.A { display: inline-block;}
+.bold { font-weight: bold;}
+
+
+
+
+

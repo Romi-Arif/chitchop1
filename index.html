@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chit Chop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Neuton:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/56cbc16bd5.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <nav>
+            <a href="#S" class="nav_a bold">HOME</a>
+            <a href="#MW" class="nav_a mywork">MY WORK</a>
+            <!--
+            <div class="container">
+                    <a href="#MW" class="nav_a mywork">MY WORK</a>
+                <div class="dropDown">
+                    <a>Digital art</a>
+                    <a>Animation</a>
+                    <a>Website</a>
+                </div>
+            </div>
+            -->
+            <a href="#C" class="nav_a">CONTACT</a>
+
+        </nav>
+        <div class="S" id="S">
+            <div class="card me"><img src="images/eating.png" class="profile-img"></div>
+            <div class="card "><h1 class="myname">Hello! I'm Chit Chit welcome to Chit Chop</h1></div>
+            <div class="card"></div>
+        </div>
+        
+        <div class="MW hide" id="MW">
+            <div class="DA">
+                <h1>Digital Art</h1>
+                <p class="p-ul">WARNING! Some viewers may find the following content disturbing.</p>
+                <div class="pic">
+                    <img src="images/2.jpg"/>
+                    <div class="pic-button">
+                        <i class="fa-sharp fa-solid fa-play fa-rotate-180 previous"></i>
+                        <i class="fa-sharp fa-solid fa-play next" ></i>
+                    </div>
+                </div>
+            </div>
+            <div class="Ani">
+                <h1>Animation</h1>
+                <p class="p-ul">Oooooo makes me wanna spin too.🍫</p>
+                <div class="animations">
+                    <iframe src="https://www.youtube.com/embed/YOWxQRoCaL4?rel=0" >
+                    </iframe>
+                    <div class="anima-button">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="Web">
+                <h1>Website</h1>
+                <div class="website">
+                    <p class="p-ul">The one you're currently at🍟🥤. This website
+                        was created using Html, CSS, vanilla Javascript plus jquery library. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="C hide" id="C">
+            <img src="images/worker.png" class="item">
+            <div class="item">
+                <h1>Don't forget to</h1>
+                <a target="_blank">
+                    <button >CONTACT</button>
+                </a>
+            </div>
+        </div>
+
+        <script src="javascript.js" charset="utf-8"></script>
+        
+    </body>
+</html>

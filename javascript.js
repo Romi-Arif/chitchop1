@@ -4,16 +4,16 @@ var picPrevBtn = document.querySelector(".pic .previous");
 var img = document.querySelector(".pic img");
 var i=2;
 var totalPic=2;
-var imgSrc = "images/"+i+".jpg";
+var imgSrc = i+".jpg";
 
 // pic Next button click event//
 picNextBtn.addEventListener("click",function(){
     i+=1;
     if(i>totalPic){
-        img.setAttribute("src","images/1.jpg");
+        img.setAttribute("src","1.jpg");
         i=1;
     }else{
-        img.setAttribute("src","images/"+i+".jpg");
+        img.setAttribute("src",i+".jpg");
     }
 });
 
@@ -22,10 +22,10 @@ picNextBtn.addEventListener("click",function(){
 picPrevBtn.addEventListener("click",function(){
     i-=1;
     if(i<1){
-        img.setAttribute("src","images/"+totalPic+".jpg");
+        img.setAttribute("src",totalPic+".jpg");
         i=totalPic;
     }else{
-        img.setAttribute("src","images/"+i+".jpg");
+        img.setAttribute("src",i+".jpg");
     }
 });
 
